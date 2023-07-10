@@ -1,0 +1,284 @@
+.tela-adulto{
+    width: 600px;
+    height: 600px;
+    max-width: 100%;
+    background-size: cover;
+    margin: 20px 20px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    transition: all 0.5s;
+}
+
+.tela-adulto:hover{
+    width: 620px;
+    height: 620px;
+    margin: 15px;
+}
+
+.titulo-adulto{
+    cursor: default;
+    margin: 25px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.5s;
+    color: #ffffff;
+    background-color: #8c00ff;
+    padding: 0 30px;
+    border-radius: 80px;
+}
+
+.titulo-adulto:hover{
+    font-size: 63px;
+    text-shadow: 
+    0 0 4px #ffffff,
+    0 0 7px #ffffff,
+    0 0 32px #ff0080,
+    0 0 52px #ff0080
+;
+}
+
+.logo-infantil-adulto{
+    width: 100px;
+    margin: -18px 0px;
+    transition: all 0.5s;
+}
+
+.logo-infantil-adulto:hover{
+    width: 110px;
+}
+
+
+
+
+@media (max-width:2300px){
+    .tela-adulto{
+        height: 600px;
+        width: 600px;
+        margin: 20px 20px;
+    }
+    .tela-adulto:hover{
+        width: 615px;
+        height: 615px;
+    }
+
+    .logo-infantil-adulto{
+        width: 100px;
+    }
+    
+    .logo-infantil-adulto:hover{
+        width: 110px;
+    }
+}
+
+@media (max-width:1450px){
+    .tela-adulto{
+        height: 500px;
+        width: 500px;
+        margin: 20px 20px;
+    }
+    .tela-adulto:hover{
+        width: 520px;
+        height: 520px;
+    }
+}
+
+
+@media (max-width:1200px){
+    .tela-adulto{
+        height: 400px;
+        width: 400px;
+        margin: 30px 10px;
+    }
+
+    .tela-adulto:hover{
+        width: 420px;
+        height: 420px;
+    }
+}
+
+@media (max-width:995px){
+    .tela-adulto{
+        height: 320px;
+        width: 320px;
+        margin: 15px 5px;
+    }
+
+    .tela-adulto:hover{
+        width: 330px;
+        height: 330px;
+    }
+}
+
+@media (max-width:780px){
+    .tela-adulto{
+        height: 550px;
+        width: 550px;
+        margin: 25px 0px;
+    }
+
+    .tela-adulto:hover{
+        width: 555px;
+        height: 555px;
+        margin: 1px 0px;
+    }
+}
+
+@media (max-width:690px){
+    .tela-adulto{
+        height: 520px;
+        width: 520px;
+        margin: 25px 0px;
+    }
+
+    .tela-adulto:hover{
+        width: 525px;
+        height: 525px;
+        margin: 1px 0px;
+    }
+}
+
+@media (max-width:660px){
+    .tela-adulto{
+        height: 490px;
+        width: 490px;
+        margin: 25px 0px 0px 0px;
+    }
+
+    .tela-adulto:hover{
+        width: 495px;
+        height: 495px;
+        margin: 10px 30px -10px 30px;
+    }
+}
+
+@media (max-width:630px){
+    .tela-adulto{
+        height: 400px;
+        width: 400px;
+        margin: 25px 0px;
+    }
+
+    .tela-adulto:hover{
+        width: 410px;
+        height: 410px;
+        margin: 1px 0px;
+    }
+}
+
+@media (max-width:555px){
+    .tela-adulto{
+        height: 300px;
+        width: 300px;
+        margin: 10px 0px;
+    }
+
+    .tela-adulto:hover{
+        width: 305px;
+        height: 305px;
+        margin: 1px 0px;
+    }
+
+    .titulo-adulto{
+        font-size: 48px;
+    }
+
+    .titulo-adulto:hover{
+        font-size: 51px;
+    }
+
+    .logo-infantil-adulto{
+        width: 67px;
+        margin: 0px 0px;
+    }
+
+    .logo-infantil-adulto:hover{
+        width: 67px;
+    }
+    
+}
+
+@media (max-width:470px){
+    .tela-adulto{
+        height: 280px;
+        width: 280px;
+        margin: 10px 0px;
+    }
+
+    .tela-adulto:hover{
+        width: 305px;
+        height: 305px;
+        margin: 1px 1px;
+    }
+
+    .titulo-adulto{
+        font-size: 33px;
+    }
+
+    .titulo-adulto:hover{
+        font-size: 35px;
+    }
+}
+
+@media (max-width:375px){
+    .tela-adulto{
+        height: 275px;
+        width: 275px;
+        margin: 10px 0px;
+    }
+
+    .tela-adulto:hover{
+        width: 300px;
+        height: 300px;
+        margin: 1px 1px;
+    }
+
+    .titulo-adulto{
+        font-size: 25px;
+    }
+
+    .titulo-adulto:hover{
+        font-size: 27px;
+
+    }
+
+    .logo-infantil-adulto{
+        width: 58px;
+    }
+    
+    .logo-infantil-adulto:hover{
+        width: 60px;
+    }
+
+}
+
+@media (max-width:325px){
+    .tela-adulto{
+        height: 245px;
+        width: 245px;
+        margin: 10px 0px;
+    }
+
+    .tela-adulto:hover{
+        width: 250px;
+        height: 250px;
+        margin: 1px 0px;
+    }
+
+    .titulo-adulto{
+        font-size: 25px;
+    }
+
+
+    .titulo-adulto:hover{
+        font-size: 27px;
+    }
+
+    .logo-infantil-adulto{
+        width: 50px;
+    }
+    
+    .logo-infantil-adulto:hover{
+        width: 51px;
+    }
+
+}

@@ -1,0 +1,103 @@
+
+.rodape{
+    display: block;
+    text-align: center;
+    height: 210px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 10px;
+    background-color: #8c00ff;
+   }
+
+   .direitos-rodape{
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+   .meu-nome{
+    color: #ffffff;
+    cursor: default;
+    transition: all 0.5s;
+   }
+
+   .meu-nome:hover{
+    color: rgb(218, 165 , 32);
+    font-size: 18px;
+   }
+
+   .whatsapp1{
+    font-size: 18px;
+    font-family: cursive;
+    transition: all 0.5s;
+}
+
+.whatsapp1:hover{
+    color: rgb(0, 255, 0);
+    font-size: 19px;
+}
+
+.logo-whatsapp1{
+    max-width: 20px;
+}
+
+.instagram1{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.5s;
+}
+
+.instagram1:hover{
+    color: red;
+    font-size: 19px;
+}
+
+.logo-instagram1{
+    max-width:20px
+}
+
+.container-redes-rodape{
+    margin-top: 20px;
+}
+
+@media (max-width:435px){
+    .direitos-rodape{
+        font-size: 14px;
+    }
+    .meu-nome:hover{
+        font-size: 16px;
+    }
+    .whatsapp1{
+        font-size: 16px;
+    }
+    .whatsapp1:hover{
+        font-size: 17px;
+    }
+    .instagram1{
+        font-size: 16px;
+    }
+    .instagram1:hover{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:390px){
+    .direitos-rodape{
+        font-size: 12px;
+    }
+    .meu-nome:hover{
+        font-size: 14px;
+    }
+    .whatsapp1{
+        font-size: 14px;
+    }
+    .whatsapp1:hover{
+        font-size: 15px;
+    }
+    .instagram1{
+        font-size: 14px;
+    }
+    .instagram1:hover{
+        font-size: 15px;
+    }
+}

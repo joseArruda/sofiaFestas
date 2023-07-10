@@ -1,0 +1,232 @@
+
+.titulo-home{
+    margin-top: 80px;
+    font-size: 50px;
+    transition: all 0.5s;
+    cursor: default;
+    width: 100%;
+    max-height: 100px;
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 150px;
+    color: #000000;
+}
+
+.titulo-home:hover{
+    text-shadow: 
+    0 0 4px rgb(218, 165 , 32),
+    0 0 8px rgb(218, 165 , 32),
+    0 12px 21px rgb(218, 165 , 32);
+    font-size: 48px;
+    height: 90px;
+}
+
+.imagens-inicio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.temas{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    max-width: 100%;
+    width: 700px;
+    transition: all 0.5s;
+}
+
+.temas:hover{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 710px;
+}
+
+.botao-ver-mais{
+    background-color: #ff0080;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 8px;
+    max-width: 100%;
+    width: 700px;
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all 0.5s;
+    margin-bottom: 50px;
+}
+
+.botao-ver-mais:hover{
+    color:#ffffff;
+    background-color: #8c00ff;
+    padding-top: 3px;
+    font-size: 25px;
+    height: 45px;
+}
+
+.logo-infantil1-home{
+    width: 85px;
+    margin: -25px 0px;
+    transition: all 0.5s;
+}
+
+.carregando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*Efeito refletor*/
+
+.btn {
+    max-width: 100%;
+    padding: 0px 60px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #8c00ff;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 60px #8c00ff;
+    -webkit-box-reflect: below 1px linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 0, 0, 0.651));
+  }
+  
+  .btn:active {
+    scale: 0.92;
+  }
+  
+  .btn:hover {
+    height: 75px;
+    background: #8c00ff;
+    color: #ffffff;
+  }
+
+
+@media (max-width:882px) {
+    .temas{
+        width: 600px;
+    }
+
+    .botao-ver-mais{
+        width: 600px;
+    }
+
+    .temas:hover{
+        width: 610px;
+    }
+
+    .titulo-home{
+        font-size: 35px;
+    }
+    
+    .titulo-home:hover{
+        font-size: 37px;
+        height: 55px;
+    }
+
+}
+
+@media (max-width:645px) {
+    .logo-infantil1-home{
+        width: 50px;
+        margin: -15px 0px;
+    }
+
+    .temas{
+        width: 450px;
+    }
+
+    .botao-ver-mais{
+        width: 450px;
+    }
+
+    .temas:hover{
+        width: 610px;
+    }
+
+    .titulo-home{
+        font-size: 28px;
+    }
+    
+    .titulo-home:hover{
+        font-size: 30px;
+        height: 43px;
+    }
+}
+
+@media (max-width:555px) {
+    .logo-infantil1-home{
+        width: 50px;
+    }
+
+    .titulo-home{
+        font-size: 23px;
+    }
+
+    .titulo-home:hover{
+        font-size: 25px;
+        height: 37px;
+    }
+
+    .temas{
+        width: 400px;
+    }
+
+    .botao-ver-mais{
+        width: 400px;
+    }
+
+    .temas:hover{
+        width: 410px;
+    }
+}
+
+@media (max-width:435px) {
+    .logo-infantil1-home{
+        width: 40px;
+        margin: 0px 0px;
+    }
+    .temas{
+        width: 300px;
+    }
+
+    .botao-ver-mais{
+        width: 300px;
+    }
+
+    .temas:hover{
+        width: 310px;
+    }
+
+    .titulo-home{
+        font-size: 16px;
+    }
+    
+    .titulo-home:hover{
+        font-size: 17px;
+        height: 25px;
+    }
+}
+
+@media (max-width:370px) {
+    .logo-infantil1-home{
+        width: 40px;
+    }
+
+    .titulo-home{
+        font-size: 12px;
+    }
+    
+    .titulo-home:hover{
+        font-size: 13px;
+        height: 30px;
+    }
+}

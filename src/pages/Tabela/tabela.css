@@ -1,0 +1,218 @@
+
+.corpo{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   background-color: #ffffff;
+}
+
+.tabela-precos{
+   max-width: 100% ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   cursor: default;
+   width: 750px;
+   border: 1px solid rgb(190, 190, 190);
+   
+}
+
+.primeira-parte{
+    display: flex;
+    justify-content: space-around;
+}
+
+.segunda-parte{
+    display: flex;
+    justify-content: space-around;
+}
+.pacote{
+    margin: 20px 0;
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    transition: all 0.4s;
+}
+
+.pacote:hover{
+    font-size: 45px;
+}
+
+.estilo-subtitulo{
+    margin-bottom: 10px;
+    font-size: 27px;
+    transition: all 0.4s;
+}
+
+.decoracao, .buffet, .bebidas, .equipe, h2{
+    margin: 15px 20px ;
+    
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.decoracao:hover, .buffet:hover, .bebidas:hover, .equipe:hover {
+    font-size: 17px;
+    padding: 12px 22px;
+}
+
+.estilo-subtitulo:hover{
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 
+    0 0 4px rgb(218, 165 , 32),
+    0 0 8px rgb(218, 165 , 32);
+}
+.buffet{
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+}
+
+
+.descartavel{
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    width: 90%;
+    padding: 10px 0;
+    transition: all 0.3s;
+}
+
+.descartavel:hover{
+    font-size: 17px;
+    padding: 12px 22px;
+}
+
+.final{
+    padding: 10px 20px;
+    margin: 0 20px;
+    width: 700px;
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+.final:hover{
+    border: 1px solid rgb(190, 190, 190);
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.logo-infantil2{
+    width: 100px;
+    margin: 0px 0px -25px -60px;
+    transition: all 0.5s;
+}
+
+@media (max-width:540px){
+    .final{
+        font-size: 13px;
+        padding: 5px 10px;
+        width: 500px;
+    }
+    
+    .final:hover{
+        font-size: 14px;
+        margin: 5px 3px;
+    }
+
+    .tabela-precos{
+        width: 650px;        
+     }
+
+     .pacote{
+        font-size: 37px;
+     }
+
+     .pacote:hover{
+        font-size: 39px;
+    }
+
+     .logo-infantil2{
+        width: 70px;
+        margin: 0px 0px -25px -60px;
+    }
+
+    .decoracao, .buffet, .bebidas, .equipe, h2{
+        margin: 10px 15px ;
+        
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width:465px){
+    .final{
+        font-size: 11px;
+        padding: 1px 5px;
+        width: 400px;
+    }
+    
+    .final:hover{
+        font-size: 12px;
+        margin: 3px 1px;
+    }
+
+    .tabela-precos{
+        width: 650px;        
+     }
+
+     .pacote{
+        font-size: 35px;
+     }
+
+     .pacote:hover{
+        font-size: 37px;
+    }
+
+     .logo-infantil2{
+        width: 70px;
+        margin: 0px 0px -25px -60px;
+    }
+
+    .decoracao, .buffet, .bebidas, .equipe, h2{
+        margin: 6px 11px ;
+        padding: 1px 10px;
+    }
+}
+
+@media (max-width:410px){
+    .tabela-precos{
+        width: 550px;        
+     }
+
+     .pacote{
+        font-size: 30px;
+        margin-left: 30px;
+     }
+
+     .pacote:hover{
+        font-size: 31px;
+    }
+
+     .logo-infantil2{
+        width: 40px;
+        margin: 0px 0px -25px -60px;
+    }
+
+    .decoracao, .buffet, .bebidas, .equipe, h2{
+        margin: 6px 11px ;
+        padding: 1px 10px;
+    }
+
+    .primeira-parte{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .segunda-parte{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+}

@@ -1,0 +1,32 @@
+::-webkit-scrollbar{
+  background-color: #8c00ff;
+  width: 6px;
+  
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #ff0080;
+  border-radius: 5px;
+}
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  overflow-x: hidden ;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
